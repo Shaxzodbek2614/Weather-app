@@ -81,6 +81,5 @@ class WeatherActivity : AppCompatActivity() {
         )
         requestQueue.add(jsonArray)
 
-        val position = intent.getParcelableExtra<LatLng>("key")
     }
 }

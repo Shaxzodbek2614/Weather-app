@@ -25,7 +25,8 @@ class WeatherAdapter(val list: List<Forecastday>):RecyclerView.Adapter<WeatherAd
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Vh {
+    override fun onCreateViewHolder(
+        parent: ViewGroup, viewType: Int): Vh {
         return Vh(ItemRvBinding.inflate(LayoutInflater.from(parent.context),parent,false))
     }
 
